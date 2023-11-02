@@ -15,6 +15,6 @@ if (!tree || !func)
 return;
 
 binary_tree_postorder(tree->left, func);
-func(tree->n)
+func(tree->n);
 binary_tree_postorder(tree->right, func);
 }
